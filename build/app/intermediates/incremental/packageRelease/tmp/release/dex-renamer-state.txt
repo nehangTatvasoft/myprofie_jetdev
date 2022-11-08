@@ -1,0 +1,4 @@
+#Tue Nov 08 10:55:10 IST 2022
+base.0=/Users/pcq225/Desktop/NehangPatel/projects/RND/my_profile_task/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
