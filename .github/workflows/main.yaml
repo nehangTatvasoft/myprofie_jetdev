@@ -30,4 +30,5 @@ jobs:
           appId: ${{secrets.FIREBASE_APP_ID}}
           serviceCredentialsFileContent: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROFILE_DEMO_26618 }}
           testers: bharat.suthar@tatvasoft.com
-          file: app/build/outputs/apk/release/app-release.apk
+          file: build/app/outputs/apk/release//app-release.apk
+
