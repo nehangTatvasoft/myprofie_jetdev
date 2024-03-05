@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      -main
+      - main
 name: "Build ApK"
 jobs:
   build:
