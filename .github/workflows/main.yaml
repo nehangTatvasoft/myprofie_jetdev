@@ -17,7 +17,7 @@ jobs:
           flutter-version: '3.16.8'
       - run: flutter clean
       - run: flutter pub get
-      - run: flutter build apk --release
+      - run: flutter build apk --release --split-per-abi
       - name: Push to release
         uses: ncipollo/release-action@v1
         with:
