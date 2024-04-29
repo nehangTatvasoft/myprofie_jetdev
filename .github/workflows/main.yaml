@@ -6,7 +6,7 @@ name: "Build Apk"
 jobs:
   build:
     name: Build Apk
-    runs-on: ubuntu-latest
+    runs-on: ex-selfhosted
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-java@v1
