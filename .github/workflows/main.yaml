@@ -24,11 +24,3 @@ jobs:
           artifacts: "build/app/outputs/apk/release/*"
           tag: v1.0.${{ github.run_number }}
           token: ${{ secrets.Token }}
-      - name: Upload android application to app distribution management
-        uses: wzieba/Firebase-Distribution-Github-Action@v1
-        with:
-          appId: ${{secrets.FIREBASE_APP_ID}}
-          serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
-          testers: bharat.suthar@tatvasoft.com
-          file: build/app/outputs/apk/release//app-release.apk
-
