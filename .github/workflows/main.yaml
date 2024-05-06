@@ -5,7 +5,7 @@ on:
 name: "Build Apk with ubuntu"
 jobs:
   build:
-    name: Build Apk
+    name: Build Apks
     runs-on: ['self-hosted', 'Linux', 'X64']
     steps:
       - uses: actions/checkout@v2
